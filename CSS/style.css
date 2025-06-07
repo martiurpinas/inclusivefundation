@@ -252,6 +252,31 @@ footer {
     background: #6366f1;
 }
 
+.lang-switch {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    z-index: 100;
+    font-size: 1rem;
+}
+
+.lang-switch a {
+    color: #4f46e5;
+    background: #fff;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    margin: 0 0.2rem;
+    font-weight: 500;
+    border: 1px solid #e0e7ff;
+    transition: background 0.2s, color 0.2s;
+}
+
+.lang-switch a:hover {
+    background: #6366f1;
+    color: #fff;
+}
+
 /* Responsive Design */
 @media (max-width: 900px) {
     .header-content-logo-left,
